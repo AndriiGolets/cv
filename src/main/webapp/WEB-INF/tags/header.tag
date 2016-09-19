@@ -5,7 +5,7 @@
 
 <html>
 <head>
-    <title>Welcome Taxi Project</title>
+    <title>Golets Andrii VC</title>
     <link href="<c:url value='/static/css/bootstrap/bootstrap.min.css'/>" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
@@ -30,7 +30,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="col-xs-8 col-lg-offset-2">
+    <div class="col-xs-10 col-lg-offset-2">
         <div id="lang">
             <h4><img src="<c:url value='/static/img/40x60-gb.jpg'/>"> <a href="english"> English</a>
                 <span id="flag"><img src="<c:url value='/static/img/40x60-ukraine.jpg'/>"><a href="ukraine"> Українська</a></span>

@@ -1,17 +1,19 @@
 package name.golets.resume.controller;
 
-
-import org.apache.commons.io.IOUtils;
 import org.springframework.stereotype.Controller;
+import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+import java.net.URLConnection;
 
 @Controller
 @RequestMapping("/")
 public class AppController {
+
+    private static final String RESUME_EN="GoletsAndriiEN.pdf";
+    private static final String RESUME_UA="GoletsAndriiUA.pdf";
 
     @RequestMapping(value = {"/", "/english"}, method = RequestMethod.GET)
     public String showResume() {
@@ -23,19 +25,29 @@ public class AppController {
         return "ukraine";
     }
 
-    @RequestMapping(value = "/files/txt/{file_name}", method = RequestMethod.GET)
+    @RequestMapping(value = "/download/{lan}", method = RequestMethod.GET)
     public void getFile(
-            @PathVariable("file_name") String fileName,
-            HttpServletResponse response) {
-        fileName = fileName + ".txt";
-        response.setContentType("application/txt");
-        response.addHeader("Content-Disposition", "attachment; filename=" + fileName);
-        try {
-            InputStream is = AppController.class.getClassLoader().getResourceAsStream(fileName);
-            IOUtils.copy(is, response.getOutputStream());
-            response.flushBuffer();
-        } catch (IOException ex) {
-            throw new RuntimeException("IOError writing file to output stream");
+            @PathVariable("lan") String lan,
+            HttpServletResponse response) throws IOException {
+
+        File file = null;
+
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        if(lan.equalsIgnoreCase("EN")){
+            file = new File(classloader.getResource(RESUME_EN).getFile());
+        }else {
+            file = new File(classloader.getResource(RESUME_UA).getFile());
         }
+
+        String mimeType= URLConnection.guessContentTypeFromName(file.getName());
+        response.setContentType(mimeType);
+
+        response.setHeader("Content-Disposition", "inline; filename=\"" + file.getName() +"\"");
+        response.setContentLength((int)file.length());
+
+        InputStream inputStream = new BufferedInputStream(new FileInputStream(file));
+        FileCopyUtils.copy(inputStream, response.getOutputStream());
     }
+
+
 }

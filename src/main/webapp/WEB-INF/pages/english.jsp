@@ -6,12 +6,13 @@
 <jsp:attribute name="resume">
         <div class="row" id="header">
             <div class="col-xs-6">
-                <h2>Golets Andrii</h2>
+                <h1>Golets Andrii</h1>
                 <h2>Java Developer</h2>
                 <h4>City: Kiev</h4>
                 <h4>mail: a3060113@gmail.com</h4>
                 <h4>tel: (093)306-01-13</h4>
-                <button class="btn-success" onclick="location.href ='/files/txt/111.txt'">Download PDF</button>
+                <h4>www.golets.name/resume</h4>
+                <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/EN' />'">Download PDF</button>
             </div>
             <div class="col-xs-4 col-lg-offset-2">
                 <img src="<c:url value='/static/img/myfoto.jpg'/>">
@@ -22,6 +23,7 @@
             <div class="col-xs-12">
                 <h3>Education:</h3>
                 <h4>NTUU "KPI" - "Mechanical engineering". 2000-2006.</h4>
+                <h4>Java Rush - 2015 (4 month)</h4>
                 <h4>"Art code" courses - advanced JAVA programing. 2016.</h4>
                 <h4>"English Prime" courses - intermediate. 2016.</h4>
             </div>
@@ -30,21 +32,16 @@
         <div class="row" id="experience">
             <div class="col-xs-12">
                 <h3>Experience:</h3>
-                <h4>2015 - 4 month: "Java Rush"</h4>
-                <h4>2015-2016 - 10 month: "Independent Research Center of IT"</h4>
-                <p>position: Java Junior Developer</p>
-                <p>On project my responsibilities included fixing the bugs
-                    and developing new features for admin part of customer's apps.  </p>
-                <p>Technologies: Log4j, jUnit tests, Spring, Java EE Servlets, Ajax, Maven, Tomcat, IntellijIdea and so on.
                 <h4>My own Projects:</h4>
-                <h4>2016 - 3 month: "Taxi program with JavaFX view" </h4>
-                <p>Technologies: JDBC, Mysql, JavaFx, Maven, Google API, Client-Server architecture based on Socket</p>
-                <h4>2016 - 1 week: "MP3 Player". Based on html parser for EX.UA site</h4>
-                <p>Technologies: JSOUP, JackSon, JSON, JavaFx, Maven</p>
-                <h4>2016 - 4 month: "Online taxi program"</h4>
-                <p>Technologies:JPA-Hibernate, Servlets, Spring, JS, jQuery, Bootstrap, Google API and other</p>
-                <p>You can see description and list of used technologies on my site</p>
-                    www.golets.name/TaxiProject <a href="http://golets.name/TaxiProject">Title page.</a></p>
+                <h4> 2016 - 4 month:<a href="http://golets.name/TaxiProject"> "Online taxi program"</a></h4>
+                Technologies: JPA-Hibernate, Servlets, Spring, JS, jQuery, Bootstrap, Google API and other.
+                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/HtmlParse.git"> "MP3 Player". Based on html parser for
+                    EX.UA site </a></h4>
+                Technologies: JSOUP, JackSon, JSON, JavaFx, Maven
+                <h4>2016 - 3 month: <a href="https://github.com/AndriiGolets/TaxiProjectFX"> "Taxi program with JavaFX view" </a></h4>
+                Technologies: JDBC, Mysql, JavaFx, Maven, Google API, Client-Server architecture based on Socket
+                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/resume"> This VC</a></h4>
+                Technologies: Spring MVC, deployed on Google cloud
             </div>
         </div>
         <hr>
@@ -52,17 +49,17 @@
             <div class="col-xs-12">
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
-                    <ul><strong>Programming languages: </strong>Java SE, Java EE, JavaScript.</ul>
-                    <ul><strong>Frameworks: </strong>Spring(core), JavaFX, Log4j, jUnit Test, Jackson`s, jsoup.</ul>
-                    <ul><strong>WEB Technologies: </strong>HTML, CSS, Bootstrap, Jquery, Ajax, Google API.</ul>
-                    <ul><strong>Web Service: </strong>SOAP, REST(Jersey).</ul>
-                    <ul><strong>Databases: </strong>SQL, JDBC, JPA, Hibernate, MySql.</ul>
+                    <ul><strong>Programming languages: </strong>Java, JavaScript.</ul>
+                    <ul><strong>Frameworks: </strong>Spring (MVC, Security, REST), JavaFX, Log4j, jUnit Test, Jackson`s, jsoup.
+                    </ul>
+                    <ul><strong>WEB Technologies: </strong>HTML, CSS, Bootstrap, jQuery, Ajax, Google API.</ul>
+                    <ul><strong>Databases: </strong>JDBC, JPA, Hibernate, MySql.</ul>
                     <ul><strong>Build Tools: </strong>Maven.</ul>
-                    <ul><strong>VCS: </strong>Git, GitHub.</ul>
+                    <ul><strong>VCS: </strong>Git</ul>
                     <ul><strong>Development Tools: </strong>Intellij IDEA.</ul>
                     <ul><strong>App Servers: </strong>Apache Tomcat.</ul>
                     <ul><strong>Server Hosting: </strong>Google cloud, OpenShift, heroku.</ul>
-                    <ul><strong>OS:</strong> Linux.</ul>
+                    <ul><strong>OS:</strong>Linux</ul>
                 </div>
             </div>
         </div>
@@ -74,7 +71,5 @@
             </div>
         </div>
         <hr>
-    </div>
-</div>
 </jsp:attribute>
 </t:header>
