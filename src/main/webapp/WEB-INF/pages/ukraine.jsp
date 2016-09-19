@@ -11,7 +11,7 @@
                 <h4>Місто: Київ</h4>
                 <h4>mail: a3060113@gmail.com</h4>
                 <h4>tel: (093)306-01-13</h4>
-                <h4>www.golets.name/resume</h4>
+                <h4><a href="http://golets.name/vc">www.golets.name</a></h4>
                 <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/UA' />'">Download PDF</button>
             </div>
             <div class="col-xs-4 col-lg-offset-2">

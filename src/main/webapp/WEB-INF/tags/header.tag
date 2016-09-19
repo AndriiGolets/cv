@@ -32,8 +32,8 @@
 <div class="container">
     <div class="col-xs-10 col-lg-offset-2">
         <div id="lang">
-            <h4><img src="<c:url value='/static/img/40x60-gb.jpg'/>"> <a href="english"> English</a>
-                <span id="flag"><img src="<c:url value='/static/img/40x60-ukraine.jpg'/>"><a href="ukraine"> Українська</a></span>
+            <h4><img src="<c:url value='/static/img/40x60-gb.jpg'/>"> <a href="http://golets.name/vc/english"> English</a>
+                <span id="flag"><img src="<c:url value='/static/img/40x60-ukraine.jpg'/>"><a href="http://golets.name/vc/ukraine"> Українська</a></span>
             </h4>
         </div>
         <jsp:invoke fragment="resume"/>
