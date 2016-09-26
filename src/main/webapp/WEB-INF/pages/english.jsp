@@ -51,7 +51,7 @@
             <div class="col-xs-12">
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
-                    <ul><strong>Programming languages: </strong>Java, JavaScript.</ul>
+                    <ul><strong>Programming languages: </strong>Java SE, Java EE, JavaScript.</ul>
                     <ul><strong>Frameworks: </strong>Spring (MVC, Security, REST), JavaFX, Log4j, jUnit Test, Jackson`s, jsoup.</ul>
                     <ul><strong>WEB Technologies: </strong>HTML, CSS, Bootstrap, jQuery, Angular JS, Ajax, Google API.</ul>
                     <ul><strong>Databases: </strong>JDBC, JPA, Hibernate, MySql.</ul>
