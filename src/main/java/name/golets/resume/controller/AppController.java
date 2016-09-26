@@ -1,6 +1,7 @@
 package name.golets.resume.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.util.FileCopyUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,6 +19,18 @@ public class AppController {
     @RequestMapping(value = {"/", "/english"}, method = RequestMethod.GET)
     public String showResume() {
         return "english";
+    }
+
+    @RequestMapping(value = {"/pdf/en"}, method = RequestMethod.GET)
+    public String showPdfResume(ModelMap model) {
+        model.addAttribute("pdf", true);
+        return "english";
+    }
+
+    @RequestMapping(value = {"/pdf/ua"}, method = RequestMethod.GET)
+    public String showPdfResumeUA(ModelMap model) {
+        model.addAttribute("pdf", true);
+        return "ukraine";
     }
 
     @RequestMapping(value = {"/ukraine"}, method = RequestMethod.GET)

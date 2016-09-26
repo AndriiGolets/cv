@@ -11,8 +11,10 @@
                 <h4>Місто: Київ</h4>
                 <h4>mail: a3060113@gmail.com</h4>
                 <h4>tel: (093)306-01-13</h4>
-                <h4><a href="http://golets.name/vc">www.golets.name</a></h4>
+                <h4><a href="http://golets.name/cv">www.golets.name</a></h4>
+                <c:if test="${pdf != true}">
                 <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/UA' />'">Download PDF</button>
+                </c:if>
             </div>
             <div class="col-xs-4 col-lg-offset-2">
                 <img src="<c:url value='/static/img/myfoto.jpg'/>">
@@ -40,7 +42,7 @@
                 Технології: JSOUP, JackSon, JSON, JavaFx, Maven
                 <h4>2016 - 3 month: <a href="https://github.com/AndriiGolets/TaxiProjectFX"> "Taxi program with JavaFX view" </a></h4>
                 Технології: JDBC, Mysql, JavaFx, Maven, Google API, Client-Server architecture based on Socket
-                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/resume"> This VC</a></h4>
+                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/resume"> This CV</a></h4>
                 Технології: Spring MVC, deployed on Google cloud
             </div>
         </div>
