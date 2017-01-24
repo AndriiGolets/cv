@@ -27,17 +27,6 @@ public class AppController {
         return "english";
     }
 
-    @RequestMapping(value = {"/pdf/ua"}, method = RequestMethod.GET)
-    public String showPdfResumeUA(ModelMap model) {
-        model.addAttribute("pdf", true);
-        return "ukraine";
-    }
-
-    @RequestMapping(value = {"/ukraine"}, method = RequestMethod.GET)
-    public String showResumeUkr() {
-        return "ukraine";
-    }
-
     @RequestMapping(value = "/download/{lan}", method = RequestMethod.GET)
     public void getFile(
             @PathVariable("lan") String lan,

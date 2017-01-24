@@ -34,15 +34,6 @@
 <body>
 <div class="container">
     <div class="col-xs-10 col-lg-offset-2">
-        <c:if test="${pdf != true}">
-        <div id="lang">
-            <h4><img src="<c:url value='/static/img/40x60-gb.jpg'/>"> <a href="http://golets.name/cv/english">
-                English</a>
-                <span id="flag"><img src="<c:url value='/static/img/40x60-ukraine.jpg'/>"><a
-                        href="http://golets.name/cv/ukraine"> Українська</a></span>
-            </h4>
-        </div>
-        </c:if>
         <jsp:invoke fragment="resume"/>
 </body>
 </html>

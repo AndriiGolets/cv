@@ -25,8 +25,8 @@
             <div class="col-xs-12">
                 <h3>Education:</h3>
                 <h4>NTUU "KPI" - "Mechanical engineering". 2000-2006.</h4>
-                <h4>Java Rush - 2015 (4 month)</h4>
-                <h4>"Art code" courses - advanced JAVA programing. 2016.</h4>
+                <h4>Java Rush - 2014 (6 month )</h4>
+                <h4>"Art code" internship 2014-2015.</h4>
                 <h4>"English Prime" courses - intermediate. 2016.</h4>
             </div>
         </div>
@@ -34,16 +34,14 @@
         <div class="row" id="experience">
             <div class="col-xs-12">
                 <h3>Experience:</h3>
-                <h4>My own Projects:</h4>
-                <h4> 2016 - 4 month:<a href="http://golets.name/TaxiProject"> "Online taxi program"</a></h4>
+                <h4>(1 year 8 month) 2015 Feb.: "Inter-collab"</h4>
+                <p><strong>Responsibilities on the Project: </strong>writing backend part of the web project
+                using Java, Spring Framework, Stripes Framework, PostgreSQL Database, SOAP and REST Web Services </p>
+                <br>
+                <h4></h4>
+                <h3>My own Projects:</h3>
+                <h4> <a href="http://golets.name/TaxiProject"> "Online taxi program"</a></h4>
                 Technologies: JPA-Hibernate, Servlets, Spring, JS, jQuery, Bootstrap, Google API and other.
-                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/HtmlParse.git"> "MP3 Player". Based on html parser for
-                    EX.UA site </a></h4>
-                Technologies: JSOUP, JackSon, JSON, JavaFx, Maven
-                <h4>2016 - 3 month: <a href="https://github.com/AndriiGolets/TaxiProjectFX"> "Taxi program with JavaFX view" </a></h4>
-                Technologies: JDBC, Mysql, JavaFx, Maven, Google API, Client-Server architecture based on Socket
-                <h4>2016 - 1 week: <a href="https://github.com/AndriiGolets/resume"> This CV</a></h4>
-                Technologies: Spring MVC, deployed on Google cloud
             </div>
         </div>
         <hr>
@@ -52,9 +50,10 @@
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
                     <ul><strong>Programming languages: </strong>Java SE, Java EE, JavaScript.</ul>
-                    <ul><strong>Frameworks: </strong>Spring (MVC, Security, REST), JavaFX, Log4j, jUnit Test, Jackson`s, jsoup.</ul>
-                    <ul><strong>WEB Technologies: </strong>HTML, CSS, Bootstrap, jQuery, Angular JS, Ajax, Google API.</ul>
-                    <ul><strong>Databases: </strong>JDBC, JPA, Hibernate, MySql.</ul>
+                    <ul><strong>Programming technologies: </strong>OOP, OOD, design-patterns, multithreading</ul>
+                    <ul><strong>Frameworks: </strong>Spring (MVC, Security, REST), Stripes, JavaFX, Log4j, jUnit Test, Jackson`s, jsoup.</ul>
+                    <ul><strong>WEB Technologies: </strong>HTML, CSS, Bootstrap, jQuery, AngularJS, Ajax, Google API.</ul>
+                    <ul><strong>Databases: </strong>JDBC, JPA, Hibernate, PostgreSQL, MySql</ul>
                     <ul><strong>Build Tools: </strong>Maven.</ul>
                     <ul><strong>VCS: </strong>Git</ul>
                     <ul><strong>Development Tools: </strong>Intellij IDEA.</ul>
@@ -68,7 +67,7 @@
         <div class="row">
             <div class="col-xs-12">
                 <h3>Language:</h3>
-                <h4>Ukrainian - native. English - intermediate</h4>
+                <h4>Ukrainian - native. English - Intermediate+</h4>
             </div>
         </div>
         <hr>
