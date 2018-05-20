@@ -2,6 +2,8 @@
 <%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+
+
 <t:header>
 <jsp:attribute name="resume">
         <div class="row" id="header">
@@ -28,7 +30,7 @@
                 <h4>NTUU "KPI" - "Mechanical engineering". 2000-2006.</h4>
                 <h4>Java Rush - 2015 (6 month )</h4>
                 <h4>"Art code IT courses"</h4>
-                <h4>"English Prime" up to upper intermediate lvl 2016.</h4>
+                <h4>"English Prime" english up to upper intermediate</h4>
             </div>
         </div>
         <hr>
