@@ -31,5 +31,10 @@ public class AppConfig extends WebMvcConfigurerAdapter{
 		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
 	}
 
+	@Override
+	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+		configurer.enable();
+	}
+
 }
 

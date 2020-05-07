@@ -13,7 +13,7 @@
                 <h4>mail: a3060113@gmail.com</h4>
                 <h4>tel: (093)306-01-13</h4>
                 <h4>skype: andrii.golets
-                    <h4><a href="http://golets.name/cv">Website </a></h4>
+                    <h4><a href="http://35.188.181.225/cv/">Website</a></h4>
                     <c:if test="${pdf != true}">
                     <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/EN'/>'">Download
                         PDF
@@ -41,12 +41,14 @@
                 <h4>2017-10 till now: <a href="https://www.gameloft.com/en/">GameLoft Lviv</a></h4>
                 <p><strong>Project: </strong>Game Servers infrastructure</p>
                 <p><strong>Responsibilities on the Project: </strong>
-                    Extending managing and monitoring Game Servers Datalake infrastructure based on microservices architecture.
-                    Spring Boot, Camel, Netty, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch, InfluxDB,
+                    Extending managing and monitoring Game Servers Datalake infrastructure based on microservices
+                    architecture.
+                    Spring Boot, Camel, Netty, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch,
+                    InfluxDB,
                     Hadoop, Spark, Hive, Presto, Dremio
                 </p>
 
-                <h4>2018-04 to 2018-10: <a href="https://codein.software/en">CodeIn Software</a></h4>
+                <h4>2018-07 to 2018-10: <a href="https://codein.software/en">CodeIn Software</a></h4>
                 <p><strong>Project: <a href="http://onlyoriginal.com">OnlyOriginal</a></strong></p>
                 <p><strong>Responsibilities on the Project: </strong>
                     Creating REST API for mobile and web part of the project.
@@ -54,7 +56,7 @@
                     Electronic Signature, OAuth 2.0
                 </p>
 
-                <h4>2016-08 to 2018-02: <a href="http://intercollab.com/">Inter-collab</a> Canada</h4>
+                <h4>2016-04 to 2018-02: <a href="http://intercollab.com/">Inter-collab</a> Canada</h4>
                 <p><strong>Project: </strong>Enterprise E-commerce web project what provides
                     different functionality for management credit cards, electronic wallets and paychecks.</p>
                 <p><strong>Responsibilities on the Project: </strong>
@@ -66,6 +68,7 @@
 
             </div>
         </div>
+        <hr>
         <hr>
         <div class="row">
             <div class="col-xs-12">
