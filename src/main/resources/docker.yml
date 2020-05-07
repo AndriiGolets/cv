@@ -1,0 +1,9 @@
+docker:
+  base:
+    image:
+      name: openjdk:8-jdk-alpine
+  image:
+    name: cv
+    environment: staging
+  opts: '"-server", "-Xms256M", "-Xmx512M"'
+  port: 8080

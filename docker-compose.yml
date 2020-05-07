@@ -1,0 +1,7 @@
+version: "2.0"
+services:
+  blockchain-test:
+    container_name: blockchain-test
+    image: staging/blockchain
+    ports:
+     - "8080:8080"
