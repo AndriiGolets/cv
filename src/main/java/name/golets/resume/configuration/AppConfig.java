@@ -13,6 +13,16 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan(basePackages = "name.golets.resume")
 public class AppConfig implements WebMvcConfigurer {
 
+	private static final String[] CLASSPATH_RESOURCE_LOCATIONS = {
+			"classpath:/META-INF/resources/", "classpath:/resources/",
+			"classpath:/static/", "classpath:/public/" };
+
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+		registry.addResourceHandler("/**")
+				.addResourceLocations(CLASSPATH_RESOURCE_LOCATIONS);
+	}
+
 	/**
      * Configure ViewResolvers to deliver preferred views.
      */
@@ -26,10 +36,10 @@ public class AppConfig implements WebMvcConfigurer {
 		registry.viewResolver(viewResolver);
 	}
 
-	@Override
+/*	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
-	}
+	}*/
 
 	@Override
 	public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
