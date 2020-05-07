@@ -7,8 +7,11 @@
     <groupId>name.golets.resume</groupId>
     <artifactId>resume</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>cv-golets</name>
+    <description>cv-golets-landing</description>
 
     <properties>
+        <java.version>1.8</java.version>
         <springframework.version>5.2.0.RELEASE</springframework.version>
         <docker.config.path>${user.dir}/src/main/resources/docker.yml</docker.config.path>
     </properties>
