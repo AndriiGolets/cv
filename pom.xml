@@ -12,14 +12,16 @@
     </parent>
 
     <groupId>name.golets.resume</groupId>
-    <artifactId>resume</artifactId>
+    <artifactId>cv</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>cv-golets</name>
     <description>cv-golets-landing</description>
+    <packaging>war</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <docker.config.path>${user.dir}/src/main/resources/docker.yml</docker.config.path>
+        <docker.image.prefix>staging</docker.image.prefix>
     </properties>
 
     <dependencies>
@@ -88,56 +90,16 @@
 
     <build>
         <plugins>
-            <plugin>
-                <groupId>it.ozimov</groupId>
-                <artifactId>yaml-properties-maven-plugin</artifactId>
-                <version>1.1.2</version>
-                <executions>
-                    <execution>
-                        <phase>initialize</phase>
-                        <goals>
-                            <goal>read-project-properties</goal>
-                        </goals>
-                        <configuration>
-                            <files>
-                                <file>${docker.config.path}</file>
-                            </files>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+
             <plugin>
                 <groupId>com.spotify</groupId>
-                <artifactId>docker-maven-plugin</artifactId>
-                <version>0.4.13</version>
-                <executions>
-                    <execution>
-                        <id>install</id>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>build</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <artifactId>dockerfile-maven-plugin</artifactId>
+                <version>1.3.6</version>
                 <configuration>
-                    <baseImage>${docker.base.image.name}</baseImage>
-                    <imageName>${docker.image.environment}/${docker.image.name}</imageName>
-                    <entryPoint>["java", ${docker.opts}, "-jar", "/usr/bin/${project.build.finalName}.jar"]
-                    </entryPoint>
-                    <exposes>
-                        <expose>${docker.port}</expose>
-                    </exposes>
-                    <forceTags>true</forceTags>
-                    <imageTags>
-                        <imageTag>${project.version}</imageTag>
-                    </imageTags>
-                    <resources>
-                        <resource>
-                            <targetPath>/usr/bin/</targetPath>
-                            <directory>${project.build.directory}</directory>
-                            <include>${project.build.finalName}.jar</include>
-                        </resource>
-                    </resources>
+                    <repository>${docker.image.prefix}/${project.artifactId}</repository>
+                    <buildArgs>
+                        <WAR_FILE>target/${project.build.finalName}.war</WAR_FILE>
+                    </buildArgs>
                 </configuration>
             </plugin>
 
