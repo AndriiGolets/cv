@@ -10,6 +10,7 @@
 
     <properties>
         <springframework.version>5.2.0.RELEASE</springframework.version>
+        <docker.config.path>${user.dir}/src/main/resources/docker.yml</docker.config.path>
     </properties>
 
     <dependencies>
