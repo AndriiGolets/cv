@@ -1,7 +1,7 @@
 version: "2.0"
 services:
   blockchain-test:
-    container_name: blockchain-test
-    image: staging/blockchain
+    container_name: cv-golets
+    image: staging/cv-golets
     ports:
      - "8080:8080"
