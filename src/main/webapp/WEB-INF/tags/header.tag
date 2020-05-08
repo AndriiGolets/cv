@@ -22,6 +22,10 @@
             margin-top: -8px;
         }
 
+        div.pl1 {
+             padding-left: 50px;
+        }
+
         #skills {
             margin-left: -40px;
         }
@@ -29,6 +33,8 @@
         #flag {
             margin-left: 40px;
         }
+
+
     </style>
 </head>
 <body>

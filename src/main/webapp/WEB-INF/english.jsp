@@ -39,49 +39,55 @@
             <div class="col-xs-12">
                 <h3>Experience:</h3>
                 <h4>2020-02 till now: EdgeGravity - Ericsson </a></h4>
+                <div class="pl1">
                 <p><strong>Project: </strong>EdgeGravity CI-CD Framework</p>
-                <p><strong>Responsibilities on the Project: </strong>
-                    Developing CI-CD Framework based on Jenkins plugins and libraries
-                    Java8, Groovy, Google Guice, TDD, JUnit, Jenkins
-                </p>
+                <p><strong>Responsibilities and Technologies: </strong>
+                    <br>Developing CI-CD Framework based on Jenkins plugins and libraries
+                    <br>Java8, Groovy, Google Guice, TDD, JUnit, Jenkins
+                </p></div>
 
                 <h4>2019-08 to 2020-02: <a href="https://www.divessi.com/uk-IC/home/">HEAD - SSI</a></h4>
-                 <p><strong>Project: </strong>SSI Diver Certification Website</p>
-                 <p><strong>Responsibilities on the Project: </strong>
-                     Migrating PHP project to Java. Writing Java backend
-                     Java8, Spring (Boot, MVC, Data, Security), TDD, JUnit, Gradle, MySQL
-                 </p>
+                <div class="pl1">
+                <p><strong>Project: </strong>SSI Diver Certification Website</p>
+                <p><strong>Responsibilities and Technologies: </strong>
+                     <br>Migrating PHP project to Java. Writing Java backend
+                     <br>Java8, Spring (Boot, MVC, Data, Security), JPA, MySQL, TDD, JUnit, Gradle
+                </p></div>
 
                 <h4>2017-10 to 2019-08: <a href="https://www.gameloft.com/en/">GameLoft Lviv</a></h4>
+                <div class="pl1">
                 <p><strong>Project: </strong>Game Servers infrastructure</p>
-                <p><strong>Responsibilities on the Project: </strong>
-                    Developing managing and monitoring Game Servers Datalake infrastructure based on microservices
+                <p><strong>Responsibilities and Technologies: </strong>
+                    <br>Developing managing and monitoring Game Servers Datalake infrastructure based on microservices
                     architecture.
-                    Java8, Spring (Boot, Data, Cloud), Camel, Netty,
-                    ActiveMQ, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch,
-                    InfluxDB, Hadoop, Spark, Hive, Presto, Dremio
-                    AWS (EC2, Kinesis, S3)
-                </p>
+                    <br>Java8, Spring (Boot, Data, Cloud), Camel, Netty,
+                    <br>ActiveMQ, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch,
+                    <br>InfluxDB, Hadoop, Spark, Hive, Presto, Dremio,
+                    <br>AWS (EC2, Kinesis, S3)
+                </p></div>
 
                 <h4>2017-05 to 2017-10: <a href="https://codein.software/en">CodeIn Software</a></h4>
+                <div class="pl1">
                 <p><strong>Project: <a href="http://onlyoriginal.com">OnlyOriginal</a></strong></p>
-                <p><strong>Responsibilities on the Project: </strong>
-                    Creating REST API for mobile and web part of the project.
-                    Java8, Spring (Boot, MVC, Data), Hibernate, PostgreSQL, Unit and Integration tests,
-                    Electronic Signature, OAuth 2.0
-                </p>
+                 Startup for identification Originality of products. Based on scanning QR codes
+                <p><strong>Responsibilities and Technologies: </strong>
+                    <br>Creating REST API for mobile and web part of the project.
+                    <br>Java8, Spring (Boot, MVC, Data),  JPA, MySQL, PostgreSQL, TDD, JUnit,
+                    <br>Electronic Signature, OAuth 2.0
+                </p></div>
 
                 <h4>2016-04 to 2017-05: <a href="http://intercollab.com/">Inter-collab</a> Canada</h4>
+                <div class="pl1">
                 <p><strong>Project: </strong>Enterprise E-commerce web project what provides
                     different functionality for management credit cards, electronic wallets and paychecks.</p>
-                <p><strong>Responsibilities on the Project: </strong>
-                    Full Stack development. Java8,  Spring (Core, MVC,
-                    JDBCTemplate, JAX-WS). JavaScript, JQuery, DataTables
-                    PostgreSQL Database, SOAP and REST Web Services, Unit Tests</p>
+                <p><strong>Responsibilities and Technologies: </strong>
+                    <br>Full Stack development. Java8,  Spring (Core, MVC,
+                    <br>JDBCTemplate, JAX-WS). JavaScript, JQuery, DataTables
+                    <br>PostgreSQL Database, SOAP and REST Web Services, Unit Tests
+                </p></div>
                 <br>
             </div>
         </div>
-        <hr>
         <hr>
         <div class="row">
             <div class="col-xs-12">
@@ -92,7 +98,7 @@
                     <ul><strong>Frameworks: </strong>Spring, Guice, Camel, Netty</ul>
                     <ul><strong>Databases: </strong>PostgreSQL,MySQL, Cassandra, ElasticSearch, InfluxDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark, Hive, Presto, Dremio</ul>
-                    <ul><strong>Cloud: </strong>AWS (EC2, Kinesis, S3), Google Cloud
+                    <ul><strong>Cloud: </strong>AWS (EC2, Kinesis, S3), Google Cloud</ul>
                     <ul><strong>MQs: </strong>ActiveMQ, Artemis</ul>
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
