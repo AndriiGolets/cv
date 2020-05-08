@@ -60,6 +60,7 @@
                     Java8, Spring (Boot, Data, Cloud), Camel, Netty,
                     ActiveMQ, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch,
                     InfluxDB, Hadoop, Spark, Hive, Presto, Dremio
+                    AWS (EC2, Kinesis, S3)
                 </p>
 
                 <h4>2017-05 to 2017-10: <a href="https://codein.software/en">CodeIn Software</a></h4>
@@ -91,6 +92,7 @@
                     <ul><strong>Frameworks: </strong>Spring, Guice, Camel, Netty</ul>
                     <ul><strong>Databases: </strong>PostgreSQL,MySQL, Cassandra, ElasticSearch, InfluxDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark, Hive, Presto, Dremio</ul>
+                    <ul><strong>Cloud: </strong>AWS (EC2, Kinesis, S3), Google Cloud
                     <ul><strong>MQs: </strong>ActiveMQ, Artemis</ul>
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
