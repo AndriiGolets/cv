@@ -38,7 +38,17 @@
         <div class="row" id="experience">
             <div class="col-xs-12">
                 <h3>Experience:</h3>
-                <h4>2020-02 till now: EdgeGravity - Ericsson </a></h4>
+
+                <h3>Experience:</h3>
+                <h4>2020-07 till now: Levminds</h4>
+                <div class="pl1">
+                    <p><strong>Project: </strong>5G infrastructure microservices PCF, CHF</p>
+                    <p><strong>Responsibilities and Technologies: </strong>
+                        <br>Developing and managing 5G infrastructure microservices (PCF, CHF)
+                        <br>Java8, JavaRX, VertX, Karate tests, Docker, k8s
+                    </p></div>
+
+                <h4>2020-07 till now: EdgeGravity - Ericsson </h4>
                 <div class="pl1">
                 <p><strong>Project: </strong>EdgeGravity CI-CD Framework</p>
                 <p><strong>Responsibilities and Technologies: </strong>
@@ -93,9 +103,10 @@
             <div class="col-xs-12">
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
-                    <ul><strong>Programming languages: </strong>Java8, Groovy, JavaScript</ul>
+                    <ul><strong>Programming languages: </strong>Java, Groovy, JavaScript</ul>
                     <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading</ul>
-                    <ul><strong>Frameworks: </strong>Spring, Guice, Camel, Netty</ul>
+                    <ul><strong>Frameworks: </strong>Spring, Guice, Camel, JavaRX, Netty</ul>
+                    <ul><strong>Tests: </strong>Junit, Mockito, EasyMock, Karate, Jmeter</ul>
                     <ul><strong>Databases: </strong>PostgreSQL,MySQL, Cassandra, ElasticSearch, InfluxDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark, Hive, Presto, Dremio</ul>
                     <ul><strong>Cloud: </strong>AWS (EC2, Kinesis, S3), Google Cloud</ul>
@@ -103,7 +114,7 @@
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
                     <ul><strong>Development Tools: </strong>Intellij IDEA</ul>
-                    <ul><strong>DevOps tools: </strong>Jenkins, Docker, Ansyble, GoCD, Artifactory</ul>
+                    <ul><strong>DevOps tools: </strong>Jenkins, Docker, Ansyble, k8s, GoCD, Artifactory</ul>
                     <ul><strong>Monitoring tools: </strong>Grafana</ul>
                     <ul><strong>OS:</strong>Linux</ul>
                 </div>
