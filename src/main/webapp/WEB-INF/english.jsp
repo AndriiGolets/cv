@@ -46,7 +46,7 @@
                         <br>Java8, JavaRX, VertX, Karate tests, Docker, k8s
                     </p></div>
 
-                <h4>2020-07 till now: EdgeGravity - Ericsson </h4>
+                <h4>2020-02 to 2020-07 EdgeGravity - Ericsson </h4>
                 <div class="pl1">
                 <p><strong>Project: </strong>EdgeGravity CI-CD Framework</p>
                 <p><strong>Responsibilities and Technologies: </strong>
