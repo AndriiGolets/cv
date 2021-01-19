@@ -38,8 +38,6 @@
         <div class="row" id="experience">
             <div class="col-xs-12">
                 <h3>Experience:</h3>
-
-                <h3>Experience:</h3>
                 <h4>2020-07 till now: Levminds</h4>
                 <div class="pl1">
                     <p><strong>Project: </strong>5G infrastructure microservices PCF, CHF</p>
