@@ -2,6 +2,6 @@ version: "2.0"
 services:
   cv-golets:
     container_name: cv-golets
-    image: staging/cv
+    image: cv-golets
     ports:
      - "8080:8080"
