@@ -2,6 +2,6 @@ version: "2.0"
 services:
   cv-golets:
     container_name: cv-golets
-    image: 415800032746.dkr.ecr.us-west-2.amazonaws.com/amazonlinux:latest
+    image: 415800032746.dkr.ecr.us-west-2.amazonaws.com/amazonlinux:1.0-SNAPSHOT
     ports:
      - "8080:8080"
