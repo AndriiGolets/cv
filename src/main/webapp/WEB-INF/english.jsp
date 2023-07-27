@@ -95,7 +95,6 @@
                 <br>
             </div>
         </div>
-        <hr>
         <div class="row">
             <div class="col-xs-12">
                 <h3>Professional and other skills:</h3>
@@ -117,7 +116,6 @@
                 </div>
             </div>
         </div>
-        <hr>
         <div class="row">
             <div class="col-xs-12">
                 <h3>Language:</h3>
