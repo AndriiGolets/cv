@@ -13,7 +13,6 @@
                 <h4>mail: a3060113@gmail.com</h4>
                 <h4>tel: (093)306-01-13</h4>
                 <h4>skype: andrii.golets
-                    <h4><a href="http://www.golets.site">Website</a></h4>
                     <c:if test="${pdf != true}">
                     <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/EN'/>'">Download
                         PDF
