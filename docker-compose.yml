@@ -4,10 +4,4 @@ services:
     container_name: cv-golets
     image: 415800032746.dkr.ecr.us-west-2.amazonaws.com/cv-golets:1.1-SNAPSHOT
     ports:
-     - "8080:8080"
-    networks:
-      order-search-net:
-
-networks:
-  order-search-net:
-    driver: bridge
+     - "80:8080"
