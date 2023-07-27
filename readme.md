@@ -3,8 +3,8 @@
 # Build and run
 
 Project deployment configured with dockerfile-maven-plugin
-
-`mvn package` - command have to deploy image to aws ecr storage 
+`mvn install` - command have to deploy image to aws ecr storage
+version have to be changed for root pom and docker-compose file
 
 # Prerequisites :
 aws cli have to be configured for aws IAM user AndriiG
