@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="resume" target="1.8" />
+      <module name="resume" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

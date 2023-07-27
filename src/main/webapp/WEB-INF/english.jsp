@@ -38,14 +38,13 @@
         <div class="row" id="experience">
             <div class="col-xs-12">
                 <h3>Experience:</h3>
-                <h4>2020-07 till now: Levminds</h4>
+                <h4>2020-07 till now: <a href="https://www.amdocs.com/products-services/networks">Amdocs</a> </h4>
                 <div class="pl1">
-                    <p><strong>Project: </strong>5G infrastructure microservices PCF, CHF</p>
+                    <p><strong>Project: </strong> 5G network infrastructure microservices PCF, CHF</p>
                     <p><strong>Responsibilities and Technologies: </strong>
                         <br>Developing and managing 5G infrastructure microservices (PCF, CHF)
-                        <br>Java8, JavaRX, VertX, Karate tests, Docker, k8s
+                        <br>Java8, OSGi, RxJava, VertX, openAPI code generation, Maven, Karate tests, Docker, k8s, helm
                     </p></div>
-
                 <h4>2020-02 to 2020-07 EdgeGravity - Ericsson </h4>
                 <div class="pl1">
                 <p><strong>Project: </strong>EdgeGravity CI-CD Framework</p>
