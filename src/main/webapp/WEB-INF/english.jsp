@@ -101,7 +101,7 @@
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
                     <ul><strong>Programming languages: </strong>Java, Groovy, JavaScript</ul>
-                    <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading</ul>
+                    <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading, Async</ul>
                     <ul><strong>Frameworks: </strong>Spring, OSGI, VertX, RxJava, Camel, Netty</ul>
                     <ul><strong>Tests: </strong>Junit, Mockito, EasyMock, Karate, Jmeter</ul>
                     <ul><strong>Databases: </strong>PostgreSQL, MySQL, Cassandra, ElasticSearch, InfluxDB, VoltDB</ul>
