@@ -39,7 +39,7 @@
                 <h3>Experience:</h3>
                 <h4>2020-07 till now: <a href="https://www.amdocs.com/products-services/networks">Amdocs</a> </h4>
                 <div class="pl1">
-                    <p><strong>Project: </strong> 5G network infrastructure microservices PCF, CHF</p>
+                    <p><strong>Project: </strong> 5G telecom network infrastructure services PCF, CHF</p>
                     <p><strong>Responsibilities and Technologies: </strong>
                         <br>Developing and managing 5G infrastructure services (PCF, CHF)
                         <br>Providing support for connectivity between 4G and 5G services (DRB)
@@ -101,12 +101,12 @@
                 <h3>Professional and other skills:</h3>
                 <div id="skills">
                     <ul><strong>Programming languages: </strong>Java, Groovy, JavaScript</ul>
-                    <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading, Async</ul>
+                    <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading, Async, Microservices</ul>
                     <ul><strong>Frameworks: </strong>Spring, OSGI, VertX, RxJava, Camel, Netty</ul>
                     <ul><strong>Tests: </strong>Junit, Mockito, EasyMock, Karate, Jmeter, k6, h2load</ul>
                     <ul><strong>Databases: </strong>PostgreSQL, MySQL, Cassandra, ElasticSearch, InfluxDB, VoltDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark</ul>
-                    <ul><strong>Cloud: </strong>AWS (EC2,ECR, Kinesis, S3), Google Cloud</ul>
+                    <ul><strong>Cloud: </strong>AWS (EC2, ECR, Lambda, Kinesis, S3), Google Cloud</ul>
                     <ul><strong>MQs: </strong>ActiveMQ, Artemis</ul>
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
