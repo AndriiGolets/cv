@@ -41,8 +41,10 @@
                 <div class="pl1">
                     <p><strong>Project: </strong> 5G network infrastructure microservices PCF, CHF</p>
                     <p><strong>Responsibilities and Technologies: </strong>
-                        <br>Developing and managing 5G infrastructure microservices (PCF, CHF)
-                        <br>Java8, OSGi, RxJava, VertX, openAPI code generation, Maven, Karate tests, VoltDB, Docker, k8s, helm
+                        <br>Developing and managing 5G infrastructure services (PCF, CHF)
+                        <br>Providing support for connectivity between 4G and 5G services (DRB)
+                        <br>Testing ( Unit, Integration, Performance ) junit, Karate tests, k6,  h2load, jmeter
+                        <br>Java8, Java17, OSGi, RxJava, VertX, SpringBoot, openAPI code generation, Maven, VoltDB, Docker, k8s, helm
                     </p></div>
                 <h4>2020-02 to 2020-07 EdgeGravity - Ericsson </h4>
                 <div class="pl1">
@@ -101,17 +103,17 @@
                     <ul><strong>Programming languages: </strong>Java, Groovy, JavaScript</ul>
                     <ul><strong>Programming Technologies: </strong>OOP, OOD, TDD, Multithreading, Async</ul>
                     <ul><strong>Frameworks: </strong>Spring, OSGI, VertX, RxJava, Camel, Netty</ul>
-                    <ul><strong>Tests: </strong>Junit, Mockito, EasyMock, Karate, Jmeter</ul>
+                    <ul><strong>Tests: </strong>Junit, Mockito, EasyMock, Karate, Jmeter, k6, h2load</ul>
                     <ul><strong>Databases: </strong>PostgreSQL, MySQL, Cassandra, ElasticSearch, InfluxDB, VoltDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark</ul>
-                    <ul><strong>Cloud: </strong>AWS (EC2, Kinesis, S3), Google Cloud</ul>
+                    <ul><strong>Cloud: </strong>AWS (EC2,ECR, Kinesis, S3), Google Cloud</ul>
                     <ul><strong>MQs: </strong>ActiveMQ, Artemis</ul>
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
                     <ul><strong>Development Tools: </strong>Intellij IDEA</ul>
-                    <ul><strong>DevOps tools: </strong>Jenkins, GoCD, Docker, Ansyble, k8s, Helm, Artifactory</ul>
-                    <ul><strong>Monitoring tools: </strong>Grafana, Jaeger Tracing</ul>
-                    <ul><strong>OS:</strong>Linux</ul>
+                    <ul><strong>DevOps tools: </strong>Jenkins, GoCD, docker, docker-compose, ansyble, k8s, kind, Helm, Artifactory</ul>
+                    <ul><strong>Monitoring tools: </strong>Grafana, Kibana, Jaeger Tracing</ul>
+                    <ul><strong>OS:</strong>Win - wsl2, Linux</ul>
                 </div>
             </div>
         </div>
