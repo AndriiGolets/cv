@@ -1,18 +1,31 @@
 package name.golets.resume.controller;
 
+import name.golets.resume.service.PdfService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 
-import javax.servlet.http.HttpServletResponse;
-import java.io.*;
+import jakarta.servlet.http.HttpServletRequest;
+import java.io.ByteArrayOutputStream;
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 @Controller
 @RequestMapping("/")
 public class AppController {
 
-    private static final String RESUME_EN_AWS="https://golets-pdf.s3.eu-central-1.amazonaws.com/GoletsAndriiEN.pdf";
+    private static final Logger logger = LoggerFactory.getLogger(AppController.class);
+
+    private final PdfService pdfService;
+
+    public AppController(PdfService pdfService) {
+        this.pdfService = pdfService;
+    }
 
     @RequestMapping(value = {"/", "/english"}, method = RequestMethod.GET)
     public String showResume() {
@@ -25,10 +38,29 @@ public class AppController {
         return "english";
     }
 
-    @RequestMapping(value = "/download/{lan}", method = RequestMethod.GET)
-    public ModelAndView getFile(
-            @PathVariable("lan") String lan,
-            HttpServletResponse response) throws IOException {
-        return new ModelAndView("redirect:"  + RESUME_EN_AWS);
+    @GetMapping("/download/{lan}")
+    public ResponseEntity<byte[]> downloadPdf(@PathVariable("lan") String lan,
+                                              HttpServletRequest request) {
+        try {
+
+            ByteArrayOutputStream pdfOutputStream = pdfService.createPdfFromServletJsp(request, "english.jsp");
+
+            // Return response
+            HttpHeaders headers = new HttpHeaders();
+            headers.setContentType(MediaType.APPLICATION_PDF);
+            headers.setContentDispositionFormData("attachment", "resume.pdf");
+
+            return ResponseEntity
+                    .ok()
+                    .headers(headers)
+                    .body(pdfOutputStream.toByteArray());
+
+        } catch (Exception e) {
+            logger.error("Error generating PDF: ", e);
+            return ResponseEntity
+                    .internalServerError()
+                    .body("Failed to generate PDF".getBytes());
+        }
     }
+
 }

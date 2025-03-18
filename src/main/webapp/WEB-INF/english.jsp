@@ -1,36 +1,37 @@
-<%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" language="java" %>
-<%@taglib prefix="t" tagdir="/WEB-INF/tags" %>
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
+<%@ taglib uri="jakarta.tags.core" prefix="c" %>
+<%@ taglib uri="jakarta.tags.fmt" prefix="fmt" %>
+<%@ taglib uri="jakarta.tags.functions" prefix="fn" %>
 
 <t:header>
 <jsp:attribute name="resume">
         <div class="row" id="header">
             <div class="col-xs-6">
-                <h1>Golets Andrii</h1>
-                <h2>Java Developer</h2>
-                <h4>City: Lviv</h4>
+                <h2>Golets Andrii</h2>
+                <br>
+                <h3>Java Developer - DevOps</h3>
+                <h4>Location: Poland, Bydgoszcz</h4>
                 <h4>mail: a3060113@gmail.com</h4>
-                <h4>tel: (093)306-01-13</h4>
-                <h4>skype: andrii.golets
+                <h5>tel: +48 539 965945</h5>
+                <h5>Telegram, Whats App: +38 093 3060113</h5>
                     <c:if test="${pdf != true}">
-                    <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/EN'/>'">Download
-                        PDF
-                    </button>
+                    <button class="btn-lg btn-success" onclick="location.href='<c:url value='/download/EN'/>'">Download PDF</button>
                     </c:if>
             </div>
             <div class="col-xs-4 col-lg-offset-2">
-                <img src="<c:url value='/static/img/myfoto.jpg'/>">
+                <img src="<c:url value='${pageContext.request.contextPath}/static/img/myfoto.jpg'/>">
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-xs-12">
                 <h3>Education:</h3>
-                <h4>NTUU "KPI" - "Mechanical engineering". 2000-2006.</h4>
-                <h4>Java Rush - 2015 </h4>
-                <h4>"Art code IT courses - 2016"</h4>
-                <h4>"English Prime" english up to upper intermediate</h4>
+                <h4>Ukraine, Kyiv:</h4>
+                <h5>NTUU "KPI" - "Mechanical engineering". 2000-2006.</h5>
+                <h5>Java Rush - 2015 </h5>
+                <h5>"Art code IT courses - 2016"</h5>
+                <h5>"English Prime" english up to upper intermediate</h5>
             </div>
         </div>
         <hr>
@@ -40,12 +41,13 @@
                 <h4>2020-07 till now: <a href="https://www.amdocs.com/products-services/networks">Amdocs</a> </h4>
                 <div class="pl1">
                     <p><strong>Project: </strong> 5G telecom network infrastructure services PCF, CHF</p>
-                    <p><strong>Responsibilities and Technologies: </strong>
+                    <strong>Responsibilities and Technologies: </strong>
                         <br>Developing and managing 5G infrastructure services (PCF, CHF)
                         <br>Providing support for connectivity between 4G and 5G services (DRB)
                         <br>Testing ( Unit, Integration, Performance ) junit, Karate tests, k6,  h2load, jmeter
-                        <br>Java8, Java17, OSGi, RxJava, VertX, SpringBoot, openAPI code generation, Maven, VoltDB, Docker, k8s, helm
-                    </p></div>
+                        <br>Creating k8s helm configs, managing k8s clusters deployments, creating Jenkins pipelines
+                        <br>Java17, OSGi, RxJava, VertX, SpringBoot, openAPI code generation, Maven, VoltDB, Kafka, Docker, k8s, helm, Jenkins
+                    </div>
                 <h4>2020-02 to 2020-07 EdgeGravity - Ericsson </h4>
                 <div class="pl1">
                 <p><strong>Project: </strong>EdgeGravity CI-CD Framework</p>
@@ -66,8 +68,7 @@
                 <div class="pl1">
                 <p><strong>Project: </strong>Game Servers infrastructure</p>
                 <p><strong>Responsibilities and Technologies: </strong>
-                    <br>Developing managing and monitoring Game Servers Datalake infrastructure based on microservices
-                    architecture.
+                    <br>Collecting events data from game devices for feather Big Data analysis
                     <br>Java8, Spring (Boot, Data, Cloud), Camel, Netty,
                     <br>ActiveMQ, Artemis, Docker, Ansyble, GoCD, Grafana, Cassandra, ElasticSearch,
                     <br>InfluxDB, Hadoop, Spark, Hive, Presto, Dremio,
@@ -107,20 +108,22 @@
                     <ul><strong>Databases: </strong>PostgreSQL, MySQL, Cassandra, ElasticSearch, InfluxDB, VoltDB</ul>
                     <ul><strong>BigData: </strong>Hadoop, Spark</ul>
                     <ul><strong>Cloud: </strong>AWS (EC2, ECR, Lambda, Kinesis, S3), Google Cloud</ul>
-                    <ul><strong>MQs: </strong>ActiveMQ, Artemis</ul>
+                    <ul><strong>MQs: </strong>ActiveMQ, Artemis, Kafka</ul>
                     <ul><strong>Build Tools: </strong>Maven, Gradle</ul>
                     <ul><strong>VCS: </strong>Git, Gerrit</ul>
                     <ul><strong>Development Tools: </strong>Intellij IDEA</ul>
-                    <ul><strong>DevOps tools: </strong>Jenkins, GoCD, docker, docker-compose, ansyble, k8s, kind, Helm, Artifactory</ul>
+                    <ul><strong>DevOps tools: </strong>Jenkins, GoCD, docker, docker-compose, ansyble, k8s, kind, Helm</ul>
                     <ul><strong>Monitoring tools: </strong>Grafana, Kibana, Jaeger Tracing</ul>
-                    <ul><strong>OS:</strong>Win - wsl2, Linux</ul>
+                    <ul><strong>OS:</strong>Windows, Linux</ul>
                 </div>
             </div>
+            <br>
         </div>
+        <br>
         <div class="row">
             <div class="col-xs-12">
                 <h3>Language:</h3>
-                <h4>Ukrainian - native. English - Upper Intermediate</h4>
+                <h5>Ukrainian - native. English - Upper Intermediate, Poland - A2</h5>
             </div>
         </div>
         <hr>
